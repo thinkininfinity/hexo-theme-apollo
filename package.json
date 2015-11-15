@@ -1,0 +1,31 @@
+{
+  "name": "hexo-theme-jekyll",
+  "version": "0.1.0",
+  "description": "A hexo theme inspire by jekyllrb.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinggod/hexo-theme-jekyll"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "jekyll"
+  ],
+  "author": "Sean Sun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinggod/hexo-theme-jekyll/issues"
+  },
+  "homepage": "https://github.com/pinggod/hexo-theme-jekyll#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

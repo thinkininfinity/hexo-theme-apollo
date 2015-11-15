@@ -1,0 +1,10 @@
+meta(charset="utf-8")
+meta(name="X-UA-Compatible", content="IE=edge")
+
+title 
+    block site_title
+        = config.title
+meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+meta(name="viewport", content="width=device-width, initial-scale=1")
+link(rel="short icon", href=url_for("favicon.png"))
+link(rel="stylesheet", href=url_for("css/apollo.css"))
