@@ -1,0 +1,12 @@
+menu:
+    blog: /
+    rss: /atom.xml
+    github: https://github.com/xxxxx
+
+favicon: /favicon.png
+logo: /img/package.svg
+
+# google-analytics:
+ga: UA-XXXXXXX-X
+# baidu-analytics:
+ba: //hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

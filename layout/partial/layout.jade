@@ -1,0 +1,14 @@
+doctype
+html(lang=config.language)
+    head
+        include head
+    body
+        header
+            a.logo-link(href=url_for())
+                img(src=theme.logo)
+            include nav
+        section.container
+            block container
+        footer
+            block pagination
+        include scripts

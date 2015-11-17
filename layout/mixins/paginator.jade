@@ -1,0 +1,17 @@
+mixin home()
+    - var prev = page.prev_link
+    - var next = page.next_link
+    .paginator
+        if page.prev
+            a.pagination-prev(href=url_for(prev)) 上一页
+        if page.next
+            a.pagination-next(href=url_for(next)) 下一页
+
+mixin post()
+    - var prev = page.prev ? page.prev.path : false;
+    - var next = page.next ? page.next.path : false; 
+    .paginator
+        if prev
+            a.pagination-prev(href=url_for(prev)) 上一篇
+        if next
+            a.pagination-prev(href=url_for(next)) 下一篇
