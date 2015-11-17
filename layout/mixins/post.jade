@@ -1,7 +1,7 @@
 mixin postInfo(item)
     .post-meta
         .post-time
-            != full_date(item.date, 'MMMM Do YYYY')
+            != full_date(item.date, 'll')
 
 mixin posts()
     ul.home.post-list
@@ -14,7 +14,7 @@ mixin posts()
                     +postInfo( item )
                     .post-content
                         != item.excerpt
-                hr
+                    a.read-more(href=item.path) ... more
         - })
 
 mixin post(item)

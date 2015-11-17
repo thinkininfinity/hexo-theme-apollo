@@ -3,15 +3,23 @@ mixin home()
     - var next = page.next_link
     .paginator
         if page.prev
-            a.pagination-prev(href=url_for(prev)) 上一页
+            a.prev(href=url_for(prev)) 上一页
+        else
+            a.prev 
         if page.next
-            a.pagination-next(href=url_for(next)) 下一页
+            a.next(href=url_for(next)) 下一页
+        else
+            a.prev 
 
 mixin post()
     - var prev = page.prev ? page.prev.path : false;
     - var next = page.next ? page.next.path : false; 
     .paginator
         if prev
-            a.pagination-prev(href=url_for(prev)) 上一篇
+            a.prev(href=url_for(prev)) 上一篇
+        else
+            a.prev 
         if next
-            a.pagination-prev(href=url_for(next)) 下一篇
+            a.next(href=url_for(next)) 下一篇
+        else
+            a.prev 

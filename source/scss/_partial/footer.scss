@@ -1,0 +1,21 @@
+.paginator {
+    margin: 4em 0;
+    .prev, .next {
+        display: inline-block;
+        &:hover {
+            color: #42b983;
+        }
+    }
+    .prev {
+        width: 50%;
+        margin-left: -10px;
+        margin-right: 10px;
+        text-align: right;
+    }
+    .next {
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -10px;
+        text-align: left;
+    }
+}

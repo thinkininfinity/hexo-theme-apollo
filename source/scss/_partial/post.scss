@@ -1,0 +1,217 @@
+.post-block {
+    // overflow: hidden;
+
+    .post-title {
+        color: #2c3e50;
+    }
+
+    .post-time {
+        color: #7f8c8d;
+        margin: 1.2em 0;
+    }
+}
+
+.post-content {
+    h2, h3, h4, h5, h6 {
+        position: relative;
+        &:before {
+            content: "#";
+            color: #42b983;
+            position: absolute;
+            left: -0.7em;
+            top: -2px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+    h2, h3 {
+        font-size: 22px;
+    }
+    h4, h5, h6 {
+        font-size: 18px;
+    }
+    li {
+        margin: 1em;
+    }
+    a {
+        color: #42b983;
+    }
+    blockquote {
+        margin: 2em 0;
+        padding-left: 20px;
+        border-left: 4px solid #42b983;
+    }
+    img {
+        width: 100%;
+    }
+    .tip {
+        position: relative;
+        margin: 2em 0;
+        padding: 12px 24px 12px 30px;
+        border-left: 4px solid #f66;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        background-color: #f8f8f8;
+    }
+    .tip:before {
+        position: absolute;
+        top: 14px;
+        left: -12px;
+        content: "!";
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #f66;
+        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
+}
+
+code,
+pre {
+    font-size: 0.8em;
+    background-color: #f8f8f8;
+    font-family: 'Roboto Mono', Monaco, courier, monospace;
+}
+
+.highlight {
+    position: relative;
+    margin: 0;
+    border-radius: 2px;
+    line-height: 1.1em;
+    background-color: #f8f8f8;
+    overflow-x: auto;
+    table, tr, td {
+        width: 100%;
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+    .gutter {
+        display: none;
+    }
+    .code pre {
+        padding: 1.2em 1.4em;
+        line-height: 1.5em;
+        margin: 0;
+    }
+    &.html, &.js, &.bash, &.css, &.scss {
+        .code:after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: #ccc;
+            text-align: right;
+            font-size: 0.75em;
+            padding: 5px 10px 0;
+            line-height: 15px;
+            height: 15px;
+            font-weight: 600;
+        }
+    }
+    &.html .code:after {
+        content: 'HTML';
+    }
+    &.js .code:after {
+        content: 'JS';
+    }
+    &.bash .code:after {
+        content: 'Shell';
+    }
+    &.css .code:after {
+        content: 'CSS';
+    }
+    &.scss .code:after {
+        content: 'SCSS';
+    }
+}
+
+pre {
+    color: #525252;
+    .function .keyword,
+    .constant {
+       color: #0092db;
+    }
+    .keyword,
+    .attribute {
+        color: #e96900;
+    }
+    .number,
+    .literal {
+        color: #ae81ff;
+    }
+    .tag,
+    .tag .title,
+    .change,
+    .winutils,
+    .flow,
+    .lisp .title,
+    .clojure .built_in,
+    .nginx .title,
+    .tex .special {
+        color: #2973b7;
+    }
+    .class .title {
+        color: #fff;
+    }
+    .symbol,
+    .symbol .string,
+    .value,
+    .regexp {
+        color: #42b983;
+    }
+    .title {
+        color: #a6e22e;
+    }
+    .tag .value,
+    .string,
+    .subst,
+    .haskell .type,
+    .preprocessor,
+    .ruby .class .parent,
+    .built_in,
+    .sql .aggregate,
+    .django .template_tag,
+    .django .variable,
+    .smalltalk .class,
+    .javadoc,
+    .django .filter .argument,
+    .smalltalk .localvars,
+    .smalltalk .array,
+    .attr_selector,
+    .pseudo,
+    .addition,
+    .stream,
+    .envvar,
+    .apache .tag,
+    .apache .cbracket,
+    .tex .command,
+    .prompt {
+        color: #42b983;
+    }
+    .comment,
+    .java .annotation,
+    .python .decorator,
+    .template_comment,
+    .pi,
+    .doctype,
+    .deletion,
+    .shebang,
+    .apache .sqbracket,
+    .tex .formula {
+        color: #b3b3b3;
+    }
+    .coffeescript .javascript,
+    .javascript .xml,
+    .tex .formula,
+    .xml .javascript,
+    .xml .vbscript,
+    .xml .css,
+    .xml .cdata {
+        opacity: 0.5;
+    }
+}
