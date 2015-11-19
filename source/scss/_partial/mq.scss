@@ -8,3 +8,19 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    body {
+        width: 100%;
+    }
+    header {
+        padding: 20px 40px;
+    }
+    section.container {
+        margin: 2em 10px;
+    }
+    .post-content {
+        h2, h3, h4, h5, h6 {
+            left: 15px;
+        }
+    }
+}

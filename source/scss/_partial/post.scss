@@ -19,7 +19,7 @@
             color: #42b983;
             position: absolute;
             left: -0.7em;
-            top: -2px;
+            top: -4px;
             font-size: 1.2em;
             font-weight: bold;
         }
@@ -99,12 +99,7 @@ pre {
         line-height: 1.5em;
         margin: 0;
     }
-    &.html, 
-    &.js, 
-    &.bash, 
-    &.css, 
-    &.scss,
-    &.diff {
+    &.html, &.js, &.bash, &.css, &.scss, &.diff {
         .code:after {
             position: absolute;
             top: 0;
