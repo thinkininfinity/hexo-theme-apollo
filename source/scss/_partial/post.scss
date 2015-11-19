@@ -99,7 +99,12 @@ pre {
         line-height: 1.5em;
         margin: 0;
     }
-    &.html, &.js, &.bash, &.css, &.scss {
+    &.html, 
+    &.js, 
+    &.bash, 
+    &.css, 
+    &.scss,
+    &.diff {
         .code:after {
             position: absolute;
             top: 0;
@@ -127,6 +132,9 @@ pre {
     }
     &.scss .code:after {
         content: 'SCSS';
+    }
+    &.diff .code:after {
+        content: 'DIFF';
     }
 }
 
@@ -199,11 +207,13 @@ pre {
     .template_comment,
     .pi,
     .doctype,
-    .deletion,
     .shebang,
     .apache .sqbracket,
     .tex .formula {
         color: #b3b3b3;
+    }
+    .deletion {
+        color: #BA4545;
     }
     .coffeescript .javascript,
     .javascript .xml,
