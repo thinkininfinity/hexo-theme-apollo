@@ -1,5 +1,7 @@
 ul.nav.nav-list
     each value, key in theme.menu
         li.nav-list-item
-            a.nav-list-link(class={active: is_home() && value === "/"} href=value)
+            - var re = /^(http|https):\/\/*/gi;
+            - var tar = re.test(value) ? "_blank" : "_self"
+            a.nav-list-link(class={active: is_home() && value === "/"} href=value target=tar)
                 != key.toUpperCase()

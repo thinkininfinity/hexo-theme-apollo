@@ -52,6 +52,9 @@
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
         background-color: #f8f8f8;
+        br {
+            display: none;
+        }
     }
     .tip:before {
         position: absolute;
