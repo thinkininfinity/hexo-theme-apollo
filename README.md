@@ -1,9 +1,8 @@
 # hexo-theme-apollo
 
-> 根据 [http://cn.vuejs.org/](http://cn.vuejs.org/) 改写而来
-
 ## 截图
 
+![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/11295742/8f3d451a-8fa8-11e5-90d2-397af60a992d.png)
 
 ## 安装
 
@@ -30,12 +29,6 @@ feed:
   limit: 20
 ```
 
-## 运行
-
-```bash
-$ hexo g && hexo s
-```
-
 ## 更新
 
 ``` bash
@@ -45,4 +38,3 @@ $ cd themes/apollo && git pull
 ## License
 
 MIT
-
