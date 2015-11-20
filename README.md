@@ -17,7 +17,7 @@ $ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 修改 `_config.yml` 的 `theme` 配置项为 `apollo`:
 
 ```yaml
-theme: jekyll
+theme: apollo
 ```
 
 添加 `feed` 配置项：
