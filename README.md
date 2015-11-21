@@ -7,7 +7,7 @@ hexo init Blog
 cd Blog 
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+git clone https://github.com/JunyuMu/hexo-theme-apollo.git themes/apollo
 ```
 
 ## 启用
@@ -16,6 +16,12 @@ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 
 ```yaml
 theme: apollo
+```
+
+修改 `_config.yml` 的 `disqus` 配置项为 `你的shortname`:
+
+```yaml
+disqus: xxxxx
 ```
 
 添加 `feed` 配置项：
