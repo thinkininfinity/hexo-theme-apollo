@@ -1,7 +1,3 @@
-# hexo-theme-apollo
-
-## 截图
-
 ![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/11295742/8f3d451a-8fa8-11e5-90d2-397af60a992d.png)
 
 ## 安装
@@ -10,7 +6,7 @@
 hexo init Blog 
 cd Blog 
 npm install
-npm install --save hexo-renderer-jade hexo-generator-feed
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
 git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 ```
 
@@ -29,6 +25,13 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+```
+
+添加 `sitemap` 配置项：
+
+```yaml
+sitemap:
+    path: sitemap.xml
 ```
 
 ## 更新
