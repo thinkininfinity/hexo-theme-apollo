@@ -4,7 +4,7 @@
         margin: 0 auto;
     }
     header {
-        padding: 20px 200px;
+        padding: 20px 100px;
     }
 }
 
@@ -14,12 +14,19 @@
     }
     header {
         padding: 20px 40px;
+        a.logo-link,
+        ul.nav.nav-list {
+            float: none;
+            display: block;
+            text-align: center;
+        }
     }
     section.container {
         margin: 2em 10px;
     }
     .post-content {
         h2, h3, h4, h5, h6 {
+            max-width: 300px;
             left: 15px;
         }
     }

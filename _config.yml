@@ -1,12 +1,13 @@
 menu:
     博客: /
+    微博: http://weibo.com/sunchongsheng
     rss: /atom.xml
-    github: https://github.com/xxxxx
+    github: https://github.com/pinggod
 
 favicon: /favicon.png
 logo: /img/package.svg
 
 # google-analytics:
-ga: UA-XXXXXXX-X
+ga: UA-65933410-1
 # baidu-analytics:
-ba: //hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
