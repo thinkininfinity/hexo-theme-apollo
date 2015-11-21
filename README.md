@@ -18,11 +18,11 @@ git clone https://github.com/JunyuMu/hexo-theme-apollo.git themes/apollo
 theme: apollo
 ```
 
-修改 `_config.yml` 的 `disqus` 配置项为 `你的shortname`:'
+修改 `_config.yml` 的 `disqus` 配置项为 `你的shortname`:
 
 ```yaml
 disqus: xxxxx
-```'
+```
 
 添加 `feed` 配置项：
 
