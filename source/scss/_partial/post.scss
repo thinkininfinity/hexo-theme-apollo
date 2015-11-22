@@ -35,7 +35,7 @@
         font-size: 18px;
     }
     li {
-        margin: 1em;
+        margin: 0.25em 0;
     }
     a {
         color: #42b983;
@@ -46,7 +46,9 @@
         border-left: 4px solid #42b983;
     }
     img {
-        width: 100%;
+        display: block;
+        max-width: 100%;
+        margin: 1em auto;
     }
     .tip {
         position: relative;

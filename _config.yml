@@ -7,6 +7,11 @@ menu:
 favicon: /favicon.png
 logo: /favicon.png
 
+# comment
+# e.g disqus: seansun
+disqus: 
+duoshuo: 
+
 # google-analytics:
 ga: UA-65933410-1
 # baidu-analytics:

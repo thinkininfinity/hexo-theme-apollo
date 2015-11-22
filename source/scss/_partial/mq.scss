@@ -1,3 +1,7 @@
+section.container {
+    margin: 2em 10px;
+}
+
 @media screen and (min-width: 700px) {
     body {
         width: 700px;
@@ -21,13 +25,14 @@
             text-align: center;
         }
     }
-    section.container {
-        margin: 2em 10px;
-    }
     .post-content {
         h2, h3, h4, h5, h6 {
             max-width: 300px;
             left: 15px;
         }
+    }
+    .ds-thread,
+    #disqus_thread {
+        margin: 2em 10px;
     }
 }
