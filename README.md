@@ -37,7 +37,8 @@ sitemap:
 ## 更新
 
 ``` bash
-$ cd themes/apollo && git pull
+cd themes/apollo 
+git pull
 ```
 
 ## License
