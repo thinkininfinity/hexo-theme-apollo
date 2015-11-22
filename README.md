@@ -22,9 +22,9 @@ theme: apollo
 
 ```yaml
 feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+    type: atom
+    path: atom.xml
+    limit: 20
 ```
 
 添加 `sitemap` 配置项：
