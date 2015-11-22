@@ -18,22 +18,6 @@ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 theme: apollo
 ```
 
-修改 `themes/apollo/_config.yml` 中的个人信息，添加 `feed` 配置项：
-
-```yaml
-feed:
-    type: atom
-    path: atom.xml
-    limit: 20
-```
-
-添加 `sitemap` 配置项：
-
-```yaml
-sitemap:
-    path: sitemap.xml
-```
-
 ## 更新
 
 ``` bash
