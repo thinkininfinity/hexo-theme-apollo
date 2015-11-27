@@ -1,5 +1,12 @@
 .post {
     padding-top: 1em;
+
+    figure,
+    p,
+    ul,
+    ol {
+        margin: 1.2em 0;
+    }
 }
 
 .post-block {
@@ -28,11 +35,46 @@
             font-weight: bold;
         }
     }
+
     h2, h3 {
         font-size: 22px;
     }
+
+    h2 {
+        margin: 2em 0 0.8em;
+        padding-bottom: 0.7em;
+        border-bottom: 1px solid #ddd;
+
+        &:before {
+            content: none;
+        }
+    }
+
+    h3 {
+        position: relative;
+        margin: 3em 0 1.2em;
+        font-size: 1.2em;
+        &:before {
+            content: "#";
+            color: #42b983;
+            position: absolute;
+            left: -0.7em;
+            top: -2px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+
     h4, h5, h6 {
         font-size: 18px;
+    }
+    ul {
+        padding-left: 1.25em;
+        line-height: 1.4em;
+    }
+    ul ul,
+    ul p {
+        margin: 0.6em 0;
     }
     li {
         margin: 0.25em 0;
@@ -90,6 +132,7 @@ pre {
 .highlight {
     position: relative;
     margin: 0;
+    padding: 0.8em 0.8em 0.4em;
     border-radius: 2px;
     line-height: 1.1em;
     background-color: #f8f8f8;
@@ -108,7 +151,7 @@ pre {
         line-height: 1.5em;
         margin: 0;
     }
-    &.html, &.js, &.bash, &.css, &.scss, &.diff {
+    &.html, &.js, &.bash, &.css, &.scss, &.diff, &.java, &.xml {
         .code:after {
             position: absolute;
             top: 0;
@@ -139,6 +182,12 @@ pre {
     }
     &.diff .code:after {
         content: 'DIFF';
+    }
+    &.xml .code:after {
+        content: 'XML';
+    }
+    &.java .code:after {
+        content: 'Java';
     }
 }
 
