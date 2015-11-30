@@ -10,6 +10,9 @@
                 content: '';
             }
         }
+        & > ul {
+            list-style: initial;
+        }
     }
     .read-more {     
         color: #42b983;
