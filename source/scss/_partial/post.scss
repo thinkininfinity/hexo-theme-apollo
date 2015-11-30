@@ -33,31 +33,6 @@
         font-size: 22px;
     }
 
-    h2 {
-        margin: 2em 0 0.8em;
-        padding-bottom: 0.7em;
-        border-bottom: 1px solid #ddd;
-
-        &:before {
-            content: none;
-        }
-    }
-
-    h3 {
-        position: relative;
-        margin: 3em 0 1.2em;
-        font-size: 1.2em;
-        &:before {
-            content: "#";
-            color: #42b983;
-            position: absolute;
-            left: -0.7em;
-            top: -2px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-    }
-
     h4, h5, h6 {
         font-size: 18px;
     }
