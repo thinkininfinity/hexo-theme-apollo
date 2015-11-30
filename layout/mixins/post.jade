@@ -20,9 +20,8 @@ mixin posts()
 mixin post(item)
     .post
         article.post-block
-            h2.post-title
-                a.post-title-link(href=url_for(item.path))
-                    != item.title
+            h1.post-title
+                != item.title
             +postInfo(item)
             .post-content
                 != item.content
