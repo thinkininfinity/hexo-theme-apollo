@@ -88,8 +88,7 @@ pre {
 
 .highlight {
     position: relative;
-    margin: 0;
-    padding: 0.8em 0.8em 0.4em;
+    margin: 1em 0;
     border-radius: 2px;
     line-height: 1.1em;
     background-color: #f8f8f8;
@@ -110,8 +109,7 @@ pre {
     }
 }
 
-// 生成代码块标识符
-%sign-base {
+%code-base {
     position: absolute;
     top: 0;
     right: 0;
@@ -127,17 +125,13 @@ pre {
 @mixin code-signs($keys) {
     @each $key in $keys {
         .highlight.#{$key} .code:after {
-            @extend %sign-base;
             content: to-upper-case($key);
+            @extend %code-base;
         }
     }
 }
 
-$signs: (
-    "html", "js", "bash", "css", "scss",
-    "diff", "java", "xml", "python", "jade",
-    "c", "c++", "lua", "xml", "json"
-);
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json");
 @include code-signs($signs);
 
 pre {
