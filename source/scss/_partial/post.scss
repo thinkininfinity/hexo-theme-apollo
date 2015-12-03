@@ -133,7 +133,11 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss", "diff", "java", "xml", "python");
+$signs: (
+    "html", "js", "bash", "css", "scss",
+    "diff", "java", "xml", "python", "jade",
+    "c", "c++", "lua", "xml", "json"
+);
 @include code-signs($signs);
 
 pre {
