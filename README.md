@@ -25,6 +25,10 @@ cd themes/apollo
 git pull
 ```
 
+## 图例
+
+因为实际写博的过程中会用到各种类型的图例，比如流程图、序列图或者只是简单的模拟图，所以目前用的工具是 Microsoft PowerPoint。实际上，有一个工具可以满足对图例的需求，这个工具是一个在线制图网站[ProcessnOn](https://www.processon.com)，唯一遗憾的是不可以自定义配色，所以我只能使用 PPT 创建与网站配色相适应的图例。
+
 ## 自定义块
 
 Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式，详见 [custrom-blocks](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc/custom-blocks.md)。
