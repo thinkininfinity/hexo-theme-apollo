@@ -1,0 +1,19 @@
+extends partial/layout
+
+block site_title
+      != page.tag + " · " + config.title
+
+block description
+    - var desc = config.title
+    meta(name="description", content=desc)
+
+block container
+    <h1>#{__('tags')}:
+    = page.tag
+    </h1>
+    include mixins/post
+    +posts()
+
+block pagination
+    include mixins/paginator
+    +home()

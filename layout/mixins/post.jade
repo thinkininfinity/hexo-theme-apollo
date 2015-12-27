@@ -14,7 +14,7 @@ mixin posts()
                     +postInfo( item )
                     .post-content
                         != item.excerpt
-                    a.read-more(href=item.path) ... more
+                    a.read-more(href=item.path) ...#{__('more')}
         - })
 
 mixin post(item)
@@ -25,3 +25,14 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+          .tag
+          - if (item.tags)
+                != __('tags') + ":["
+                - item.tags.each(function(t, i){
+                   != "<a href='" + url_for(t.path) + "'>" + t.name + "</a>"
+                   if(i + 1 != item.tags.length)
+                       != ","
+                - })
+                != "]"
+
+
