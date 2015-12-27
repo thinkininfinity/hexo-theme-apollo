@@ -1,5 +1,12 @@
 ![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/11295742/8f3d451a-8fa8-11e5-90d2-397af60a992d.png)
 
+## 计划(2016.3 之前)
+
+- 归档页面
+- 文章目录组件（toc）
+
+ps. 请不要提交合并请求，fork 之后做任何你想做的吧。
+
 ## 安装
 
 ``` bash
