@@ -1,22 +1,18 @@
 .paginator {
     margin: 4em 0;
+    text-align: center;
     .prev, .next {
         display: inline-block;
+        margin: 0 4px;
+        padding: 4px 12px;
+        border-radius: 4px;
+        border-bottom: 4px solid #3aa373;
+        font-size: 14px;
+        color: #fff;
+        background-color: #4fc08d;
         &:hover {
-            color: #42b983;
+            background-color: #22bd77;
         }
-    }
-    .prev {
-        width: 49%;
-        margin-left: -1%;
-        margin-right: 1%;
-        text-align: right;
-    }
-    .next {
-        width: 49%;
-        margin-left: 1%;
-        margin-right: -1%;
-        text-align: left;
     }
 }
 

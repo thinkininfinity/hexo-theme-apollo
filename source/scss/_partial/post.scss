@@ -131,8 +131,9 @@ pre {
         }
     }
 }
+ // "ruby", "perl", "php", "c++", "c", "java"
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json");
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java");
 @include code-signs($signs);
 
 pre {

@@ -1,18 +1,32 @@
 menu:
     博客: /
+    归档: /archives/
     微博: http://weibo.com/sunchongsheng
-    rss: /atom.xml
     github: https://github.com/pinggod
+    rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png
 
-# comment
+# Comment
 # e.g disqus: seansun
-disqus: 
+disqus:
 duoshuo: 
 
+# Analytics
 # google-analytics:
 ga: UA-65933410-1
 # baidu-analytics:
 ba: //hm.baidu.com/hm.js?a36e15d9e2adec9a21fcdd9f686b1ed2
+
+#Copyright Infomation
+startyear: 2015
+
+# Font CDN
+#true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
+#false: use useso fonts api instead of google's, great response speed for chinese visitor
+googlefonts: true
+
+# Toc
+# enable post table of content
+toc: true

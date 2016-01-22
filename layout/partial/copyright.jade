@@ -1,0 +1,5 @@
+.copyright
+    - var date = new Date();
+    - var year = date.getFullYear();
+    - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
+    p © #{year} #[a(href=config.url)!= config.author], unless otherwise noted.

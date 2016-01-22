@@ -1,3 +1,18 @@
+## meta description
+
+meta description 数据
+
+```html
+<meta name="description" content="Lorem ipsum dolor sit amet...">
+```
+
+## 评论
+
+Apollo 支持 Disqus 和 Duoshuo 两个评论插件，需要在
+
+
+
+
 # 自定义块
 
 Markdown 生成的标签暂时比较简单，所以提供了一些 HTML 标签来标识特殊样式。

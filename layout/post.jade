@@ -4,7 +4,7 @@ block site_title
     != page.title + " · " + config.title
 
 block description
-    - var desc = page.content.slice(0, 600).replace(/<[^>]+>/g,"")
+    - desc = page.desc || page.title + ' - ' + config.author;
     meta(name="description", content=desc)
 
 block container
@@ -15,3 +15,6 @@ block pagination
     include mixins/paginator
     +post()
     include partial/comment
+
+block copyright
+    include partial/copyright
