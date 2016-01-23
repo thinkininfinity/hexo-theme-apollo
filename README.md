@@ -2,8 +2,8 @@
 
 ## 文档
 
-- [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc/)
-- [Document for visitor in English](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc/)
+- [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
+- [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
 
 ## 安装
 
