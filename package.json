@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-apollo",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,5 @@
     "gulp-autoprefixer": "^3.0.2",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.6.0"
-  },
-  "dependencies": {}
+  }
 }

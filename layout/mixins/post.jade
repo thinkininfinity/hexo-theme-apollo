@@ -5,7 +5,7 @@ mixin postInfo(item)
 
 mixin postList()
     ul.archive.post-list
-        - page.posts.each(function(item, index) {
+        - page.posts.each(function(item) {
             li.post-list-item
                 article.post-block
                     h2.post-title
@@ -16,7 +16,7 @@ mixin postList()
 
 mixin posts()
     ul.home.post-list
-        - page.posts.each(function(item, index) {
+        - page.posts.each(function(item) {
             li.post-list-item
                 article.post-block
                     h2.post-title
