@@ -1,3 +1,30 @@
+![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/11295742/8f3d451a-8fa8-11e5-90d2-397af60a992d.png)
+
+## Install
+
+``` bash
+hexo init Blog 
+cd Blog 
+npm install
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync
+git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+```
+
+## Enable
+
+Go to `_config.yml` and change the `theme` property to `apollo` value:
+
+```yaml
+theme: apollo
+```
+
+## Update
+
+``` bash
+cd themes/apollo 
+git pull
+```
+
 ## Meta Description
 
 If you want to set meta description information, please set `desc` property and value to each post — the better method is setting default `desc` property to your scaffolds files, just like:
