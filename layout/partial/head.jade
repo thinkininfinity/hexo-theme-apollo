@@ -6,9 +6,11 @@ title
         = config.title
 block description
     meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+
 meta(name="viewport", content="width=device-width, initial-scale=1")
 link(rel="short icon", href=url_for(theme.favicon))
 link(rel="stylesheet", href=url_for("css/apollo.css"))
+    
 if theme.googlefonts
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type='text/css')
 else 

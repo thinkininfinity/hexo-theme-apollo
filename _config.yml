@@ -1,9 +1,8 @@
 menu:
-    博客: /
-    归档: /archives/
-    微博: http://weibo.com/sunchongsheng
-    github: https://github.com/pinggod
-    rss: /atom.xml
+    Blog: /
+    Weibo: http://weibo.com/sunchongsheng
+    GitHub: https://github.com/pinggod
+    Rss: /atom.xml
 
 favicon: /favicon.png
 logo: /favicon.png

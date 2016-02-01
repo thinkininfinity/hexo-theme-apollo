@@ -3,20 +3,10 @@ mixin postInfo(item)
         .post-time
             != full_date(item.date, 'll')
 
-mixin postList()
-    ul.archive.post-list
-        - page.posts.each(function(item) {
-            li.post-list-item
-                article.post-block
-                    h2.post-title
-                        a.post-title-link(href= url_for(item.path))
-                            != item.title
-                    +postInfo(item)
-        - })
-
+//- Index Page
 mixin posts()
     ul.home.post-list
-        - page.posts.each(function(item) {
+        - page.posts.each(function (item) {
             li.post-list-item
                 article.post-block
                     h2.post-title
@@ -28,6 +18,7 @@ mixin posts()
                     a.read-more(href=item.path)!= __('more')
         - })
 
+//- Post Page
 mixin post(item)
     .post
         article.post-block
