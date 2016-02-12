@@ -1,7 +1,6 @@
 mixin postInfo(item)
-    .post-meta
-        .post-time
-            != full_date(item.date, 'll')
+    .post-time
+        != full_date(item.date, 'll')
 
 //- Index Page
 mixin posts()
@@ -16,6 +15,23 @@ mixin posts()
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
+        - })
+
+//- Archive Page
+mixin postList()
+    .archive
+        - var year = 0;
+        - var change = false;
+        - page.posts.each(function (item) {
+            - var itemYear = date(item.date, 'YYYY') - 0;
+            - change = year !== itemYear;
+            - year = change ? itemYear : year;
+            if change 
+                h2.archive-year!= year
+            .post-item
+                +postInfo(item)
+                a.post-title-link(href= url_for(item.path))
+                    != item.title
         - })
 
 //- Post Page
