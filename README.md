@@ -1,4 +1,4 @@
-![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026670/6ab47e38-d26b-11e5-9fef-4103e866b555.png)
+![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
 
 ## 文档
 
