@@ -1,5 +1,5 @@
 .copyright
-    - var date = new Date();
-    - var year = date.getFullYear();
+    - var currentDate = new Date();
+    - var year = currentDate.getFullYear();
     - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
     p © #{year} #[a(href=config.url)!= config.author], unless otherwise noted.
