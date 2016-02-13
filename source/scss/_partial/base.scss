@@ -36,6 +36,12 @@ code {
     white-space: inherit;
 }
 
+iframe, video {
+    max-width: 100%;
+    margin: 1rem auto;
+    display: block;
+}
+
 table {
     width: 100%;
     thead {
