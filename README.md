@@ -22,8 +22,8 @@ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 ```yaml
 theme: apollo
 
-// 在归档页面显示所有文章
-// 需要上面安装的 hexo-generator-archive 插件支持
+# 在归档页面显示所有文章
+# 需要上面安装的 hexo-generator-archive 插件支持
 archive_generator:
     per_page: 0
     yearly: false
