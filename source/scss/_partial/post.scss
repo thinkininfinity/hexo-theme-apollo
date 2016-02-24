@@ -131,10 +131,13 @@ pre {
         }
     }
 }
- // "ruby", "perl", "php", "c++", "c", "java"
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java");
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp");
 @include code-signs($signs);
+
+.highlight.cpp .code:after {
+    content: 'C++';
+}
 
 pre {
     color: #525252;
