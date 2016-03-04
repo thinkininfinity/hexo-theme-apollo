@@ -29,6 +29,11 @@
             font-weight: bold;
         }
     }
+    h4, h5, h6 {
+        &:before {
+            content: "";
+        }
+    }
 
     h2, h3 {
         font-size: 22px;
