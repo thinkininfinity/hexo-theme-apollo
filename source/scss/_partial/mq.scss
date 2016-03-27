@@ -24,6 +24,17 @@ section.container {
             display: block;
             text-align: center;
         }
+        li.nav-list-item {
+            padding: 10px 10px;
+        }
+    }
+    section.container,
+    .home.post-list,
+    .archive {
+        margin-top: 0;
+    }
+    .archive .post-item {
+        padding-left: 20px;
     }
     .post-content {
         h2, h3, h4, h5, h6 {
