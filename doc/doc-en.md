@@ -61,6 +61,12 @@ Why i do this? I support that an article should be short and clean, dont let vis
 
 Another reason is that: i don't have met a great styles to distinguish between different kinds of headers.If you have gread idea about it, please let me know.
 
+## post excerpt
+
+If you want to show excerpt(core content of article) to your visitors, do add HTML comment tag `<!--more-->` before else content，and finally the tag will be parsed to be a variable which represents post excerpt by Hexo:
+
+![https://cloud.githubusercontent.com/assets/9530963/14064341/0fa3c754-f432-11e5-8ad7-5d063d4a0886.png](https://cloud.githubusercontent.com/assets/9530963/14064341/0fa3c754-f432-11e5-8ad7-5d063d4a0886.png)
+
 ## Comment Plugin
 
 Hexo-theme-apollo support two comment plugins: Disqus and Duoshuo. please set like this in your `theme/_config.yml`:
