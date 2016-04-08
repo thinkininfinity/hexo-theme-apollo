@@ -3,7 +3,7 @@ section.container {
 }
 
 @media screen and (min-width: 700px) {
-    body {
+    .wrap {
         width: 700px;
         margin: 0 auto;
     }
@@ -13,7 +13,7 @@ section.container {
 }
 
 @media screen and (max-width: 700px) {
-    body {
+    .wrap {
         width: 100%;
     }
     header {

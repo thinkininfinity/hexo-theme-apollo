@@ -85,6 +85,19 @@
     }
 }
 
+#mask {
+    position: fixed;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    #mask-image {
+        max-width: 95%;
+    }
+}
+
 code,
 pre {
     font-size: 0.8em;
