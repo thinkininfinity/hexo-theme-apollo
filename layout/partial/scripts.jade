@@ -1,47 +1,47 @@
 //- Big Image View 
-script.
-    (function () {
-        'use strict';
+//- script.
+//-     (function () {
+//-         'use strict';
 
-        var $mask = document.querySelector('#mask');
-        var $images = document.querySelectorAll('.post-content img');
-        var $maskImage = document.querySelector('#mask-image');
-        var screenHeight = window.screen.availHeight;
-        var outerStyle = "display: block; overflow: scroll; margin: 5em auto;";
-        var innerStyle = "position: absolute; top: 50%;right: 50%;transform: translate(50%, -50%);"
-        var images = Array.from($images || {});
+//-         var $mask = document.querySelector('#mask');
+//-         var $images = document.querySelectorAll('.post-content img');
+//-         var $maskImage = document.querySelector('#mask-image');
+//-         var screenHeight = window.screen.availHeight;
+//-         var outerStyle = "display: block; overflow: scroll; margin: 5em auto;";
+//-         var innerStyle = "position: absolute; top: 50%;right: 50%;transform: translate(50%, -50%);"
+//-         var images = Array.from($images || {});
 
-        var handleShowImage = function (e) {
-            var target = e.target;
-            var image = new Image();
+//-         var handleShowImage = function (e) {
+//-             var target = e.target;
+//-             var image = new Image();
 
-            image.src = target.src;
+//-             image.src = target.src;
 
-            if (image.complete) {
-                $mask.style.display = "block";
-                $maskImage.src = target.src;
-                $maskImage.style = image.height > screenHeight ? outerStyle : innerStyle;
-                document.body.style.overflow = "hidden";
-            }
+//-             if (image.complete) {
+//-                 $mask.style.display = "block";
+//-                 $maskImage.src = target.src;
+//-                 $maskImage.style = image.height > screenHeight ? outerStyle : innerStyle;
+//-                 document.body.style.overflow = "hidden";
+//-             }
 
-            e.stopPropagation();
-        };
+//-             e.stopPropagation();
+//-         };
 
-        var handleHideImage = function (e) {
-            $mask.style = "display: none";
-            $maskImage.src = "#";
-            $maskImage.style = " ";
-            document.body.style.overflow = "visible";
-            e.stopPropagation();
-        };
+//-         var handleHideImage = function (e) {
+//-             $mask.style = "display: none";
+//-             $maskImage.src = "#";
+//-             $maskImage.style = " ";
+//-             document.body.style.overflow = "visible";
+//-             e.stopPropagation();
+//-         };
 
-        if (images.length > 0) {
-            images.forEach(function(elem, index, arr) {
-                elem.addEventListener('click', handleShowImage);
-            });
-            $mask.addEventListener('click', handleHideImage);
-        }
-    })();
+//-         if (images.length > 0) {
+//-             images.forEach(function(elem, index, arr) {
+//-                 elem.addEventListener('click', handleShowImage);
+//-             });
+//-             $mask.addEventListener('click', handleHideImage);
+//-         }
+//-     })();
 
 //- Analytics tracking
 - var ga = theme.ga
