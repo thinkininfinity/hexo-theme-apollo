@@ -19,8 +19,8 @@
     h2, h3, h4, h5, h6 {
         position: relative;
         margin: 1em 0;
-        &:before {
-            // content: "#";
+        a:before {
+            content: "#";
             color: #42b983;
             position: absolute;
             left: -0.7em;
