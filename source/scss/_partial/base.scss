@@ -59,6 +59,7 @@ table {
         background-color: #ddd;
         th {
             padding: 5px;
+            min-width: 80px;
         }
     }
     tbody {
@@ -67,6 +68,7 @@ table {
         }
         td {
             padding: 5px;
+            vertical-align: text-top;
         }
     }
 }
