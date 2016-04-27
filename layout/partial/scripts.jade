@@ -1,47 +1,5 @@
-//- Big Image View 
-//- script.
-//-     (function () {
-//-         'use strict';
-
-//-         var $mask = document.querySelector('#mask');
-//-         var $images = document.querySelectorAll('.post-content img');
-//-         var $maskImage = document.querySelector('#mask-image');
-//-         var screenHeight = window.screen.availHeight;
-//-         var outerStyle = "display: block; overflow: scroll; margin: 5em auto;";
-//-         var innerStyle = "position: absolute; top: 50%;right: 50%;transform: translate(50%, -50%);"
-//-         var images = Array.from($images || {});
-
-//-         var handleShowImage = function (e) {
-//-             var target = e.target;
-//-             var image = new Image();
-
-//-             image.src = target.src;
-
-//-             if (image.complete) {
-//-                 $mask.style.display = "block";
-//-                 $maskImage.src = target.src;
-//-                 $maskImage.style = image.height > screenHeight ? outerStyle : innerStyle;
-//-                 document.body.style.overflow = "hidden";
-//-             }
-
-//-             e.stopPropagation();
-//-         };
-
-//-         var handleHideImage = function (e) {
-//-             $mask.style = "display: none";
-//-             $maskImage.src = "#";
-//-             $maskImage.style = " ";
-//-             document.body.style.overflow = "visible";
-//-             e.stopPropagation();
-//-         };
-
-//-         if (images.length > 0) {
-//-             images.forEach(function(elem, index, arr) {
-//-                 elem.addEventListener('click', handleShowImage);
-//-             });
-//-             $mask.addEventListener('click', handleHideImage);
-//-         }
-//-     })();
+//- LaTex
+script(src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-MML-AM_CHTML")
 
 //- Analytics tracking
 - var ga = theme.ga
@@ -57,5 +15,3 @@ if ba
         != '"' + ba + '"'
         | ;var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s);})();
 
-//- LaTex
-script(src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML")
