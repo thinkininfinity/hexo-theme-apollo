@@ -1,13 +1,16 @@
-.copyright {
-    margin: 4em 0;
-    border-top: 1px solid #ddd;
-    text-align: center;
-    p, a {
-        color: #aaa;
-        font-size: 14px;
-        font-weight: 100;
-    }
-    a:hover {
-        color: #888;
+footer {
+    padding-bottom: 1px;
+    .copyright {
+        margin: 4em 0;
+        border-top: 1px solid #ddd;
+        text-align: center;
+        p, a {
+            color: #aaa;
+            font-size: 14px;
+            font-weight: 100;
+        }
+        a:hover {
+            color: #888;
+        }
     }
 }

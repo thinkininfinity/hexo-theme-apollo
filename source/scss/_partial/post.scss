@@ -9,9 +9,20 @@
         font-size: 1.5em;
     }
 
-    .post-time {
+    .post-info {
         color: #7f8c8d;
         margin: 1.2em 0;
+        span {
+            margin-left: 0.5rem;
+        }
+        a.post-from {
+            margin-left: 0.5rem;
+            color:  #7f8c8d;
+            transition: color 1s ease-out;
+            &:hover {
+                color: #42b983;
+            }
+        }
     }
 }
 

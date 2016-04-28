@@ -1,6 +1,9 @@
 mixin postInfo(item)
-    .post-time
+    .post-info
         != full_date(item.date, 'll')
+        if item.from && (is_home() || is_post())
+            span(style="margin-left:0.5rem;") |
+            a.post-from(href=item.from) original source
 
 //- Index Page
 mixin posts()
