@@ -8,6 +8,13 @@ menu:
 favicon: /favicon.png
 logo: /favicon.png
 
+# About Me
+about_me:
+    # Show/Hide about me section
+    show: false
+    portrait: /portrait.jpg
+    description: Jimmy Rustle is a software engineer at a start-up applying Artificial Intelligence and Deep Learning to improving zombie intelligence. At work, Jimmy uses the open source distributed machine learning framework ZombieFlow to scale their training models into oblivion.
+
 # Comment
 # e.g disqus: seansun
 disqus:
