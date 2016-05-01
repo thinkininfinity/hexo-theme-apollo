@@ -46,3 +46,8 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+    if theme.about_me.show
+        .about-me
+            img(src=theme.about_me.portrait)
+            .description
+                =theme.about_me.description
