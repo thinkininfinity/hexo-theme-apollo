@@ -17,11 +17,11 @@
         }
         a.post-from {
             margin-left: 0.5rem;
-            color:  #7f8c8d;
-            transition: color 1s ease-out;
-            &:hover {
-                color: #42b983;
-            }
+            padding: 3px 6px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: white;
+            background-color: #E36B6B;
         }
     }
 }
