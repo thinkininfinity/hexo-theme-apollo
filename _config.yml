@@ -11,7 +11,7 @@ logo: /favicon.png
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo: 
+duoshuo:
 
 # Analytics
 # google-analytics:
@@ -23,4 +23,4 @@ startyear: 2015
 # Font CDN
 #true : use google fonts api, not stable for chinese visitor sometimes, caused by force majeure factor
 #false: use useso fonts api instead of google's, great response speed for chinese visitor
-googlefonts: false
+googlefonts: true
