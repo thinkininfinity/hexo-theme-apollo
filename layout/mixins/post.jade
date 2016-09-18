@@ -4,6 +4,14 @@ mixin postInfo(item)
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
 
+mixin postTags(item)
+    if item.tags.length>0
+      .post-tags
+        - item.tags.each(function (tag) {
+          a.post-tag(href='/'+tag.path) 
+            != tag.slug
+        - })
+
 //- Index Page
 mixin posts()
     ul.home.post-list
@@ -14,6 +22,7 @@ mixin posts()
                         a.post-title-link(href= url_for(item.path))
                             != item.title
                     +postInfo(item)
+                    +postTags(item)
                     .post-content
                         != item.excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
@@ -43,5 +52,6 @@ mixin post(item)
             h1.post-title
                 != item.title
             +postInfo(item)
+            +postTags(item)
             .post-content
                 != item.content

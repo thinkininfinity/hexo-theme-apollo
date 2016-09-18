@@ -3,5 +3,5 @@ ul.nav.nav-list
         li.nav-list-item
             - var re = /^(http|https):\/\/*/gi;
             - var tar = re.test(value) ? "_blank" : "_self"
-            a.nav-list-link(class={active: is_home() && value === "/"} href=value target=tar)
+            a.nav-list-link(class=({active: (is_home() && value === "/")||(!is_home() && value === "/archives/")}) href=value target=tar )
                 != key.toUpperCase()
