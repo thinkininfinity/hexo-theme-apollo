@@ -5,10 +5,6 @@
 - [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
 - [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
 
-ps. hexo-theme-apollo 的定位是简洁和专注于内容，所以将不再接受新功能的 pull request，如果有新的想法，那将会是另一个主题。
-
-ps. hexo-theme-apollo will no longer accept new features for focusing on content and keeping clean, so don't pull request. If there are new features in my mind, it will become a new theme.
-
 ## 安装
 
 [![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
