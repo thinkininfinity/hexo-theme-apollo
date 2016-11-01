@@ -10,6 +10,7 @@ logo: /logo.png
 
 # Comment
 # e.g disqus: seansun
+# e.g duoshuo: seansun (if your duoshuo's subdomain is seansun.duoshuo.com) 
 disqus:
 duoshuo: lolila
 
@@ -19,3 +20,6 @@ ga:
 
 # Copyright Infomation
 startyear: 2015
+
+# 备案号 Chinese ICP license
+beian: 
