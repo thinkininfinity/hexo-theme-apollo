@@ -1,21 +1,21 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    Weibo: http://weibo.com/kozzzx
+    GitHub: https://github.com/kozzzx
     Rss: /atom.xml
 
 favicon: /favicon.png
-logo: /favicon.png
+logo: /logo.png
 
 # Comment
 # e.g disqus: seansun
 disqus:
-duoshuo:
+duoshuo: lolila
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: 
 
 # Copyright Infomation
 startyear: 2015
