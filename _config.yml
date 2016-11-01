@@ -1,25 +1,25 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/kozzzx
-    GitHub: https://github.com/kozzzx
+    Weibo: http://weibo.com/sunchongsheng
+    GitHub: https://github.com/pinggod
     Rss: /atom.xml
 
 favicon: /favicon.png
-logo: /logo.png
+logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
 # e.g duoshuo: seansun (if your duoshuo's subdomain is seansun.duoshuo.com) 
 disqus:
-duoshuo: lolila
+duoshuo:
 
 # Analytics
 # google-analytics:
-ga: 
+ga: UA-65933410-1
 
 # Copyright Infomation
 startyear: 2015
 
 # 备案号 Chinese ICP license
-beian: 苏ICP备13046553号
+beian: 
