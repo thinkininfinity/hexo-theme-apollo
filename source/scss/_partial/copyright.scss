@@ -12,5 +12,13 @@ footer {
         a:hover {
             color: #888;
         }
+        &.has-beian{
+            margin-bottom: 1.5em;
+        }
+        .beian {
+            &, a{
+                color: #CCC;
+            }
+        }
     }
 }

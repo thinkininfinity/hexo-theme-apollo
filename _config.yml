@@ -10,6 +10,7 @@ logo: /favicon.png
 
 # Comment
 # e.g disqus: seansun
+# e.g duoshuo: seansun (if your duoshuo's subdomain is seansun.duoshuo.com) 
 disqus:
 duoshuo:
 
@@ -19,3 +20,6 @@ ga: UA-65933410-1
 
 # Copyright Infomation
 startyear: 2015
+
+# 备案号 Chinese ICP license
+beian: 
