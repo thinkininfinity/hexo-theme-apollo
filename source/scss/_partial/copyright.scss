@@ -16,9 +16,8 @@ footer {
             margin-bottom: 1.5em;
         }
         .beian {
-            color: #C3C3C3;
-            a{
-                color: #C3C3C3;
+            &, a{
+                color: #CCC;
             }
         }
     }
