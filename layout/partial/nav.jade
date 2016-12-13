@@ -4,5 +4,5 @@ ul.nav.nav-list
             - var re = /^(http|https):\/\/*/gi;
             - var tar = re.test(value) ? "_blank" : "_self"
             - var act = !re.test(value) && "/"+page.current_url === value
-            a.nav-list-link(class={active: act} href=value target=tar)
+            a.nav-list-link(class={active: act} href=url_for(value) target=tar)
                 != key.toUpperCase()
