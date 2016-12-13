@@ -6,7 +6,7 @@ html(lang=config.language)
         .wrap
             header
                 a.logo-link(href=url_for())
-                    img(src=theme.logo)
+                    img(src=url_for(theme.logo))
                 include nav
             section.container
                 block container
