@@ -1,0 +1,32 @@
+#skippy {
+  display: block;
+  padding: 1em;
+  color: #fff;
+  background-color: #42b983;
+  outline: 0;
+
+  .skiplink-text {
+    padding: .5em;
+    outline: 1px dotted;
+  }
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+.sr-only-focusable {
+  &:active, &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
