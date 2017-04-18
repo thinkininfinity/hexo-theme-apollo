@@ -1,0 +1,16 @@
+if config.duoshuo_shortname
+    section#comments
+        // 多说评论框 start
+        .ds-thread(data-thread-key="post.layout-post-slug", data-title="post.title", data-url="page.permalink")
+        // 多说评论框 end
+        // 多说公共JS代码 start (一个网页只需插入一次)
+        script
+            | var duoshuoQuery = {short_name:"manjiz"};
+            | (function() {
+            | var ds = document.createElement('script');
+            | ds.type = 'text/javascript';ds.async = true;
+            | ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            | ds.charset = 'UTF-8';
+            | (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+            | })();
+        // 多说公共JS代码 end
