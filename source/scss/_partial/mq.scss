@@ -17,16 +17,38 @@ main.container {
         width: 100%;
     }
     header {
-        padding: 20px 0;
-        a.logo-link,
+        padding: 0;
+        background-color: #41b883;
+        min-height: 35px;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        a.logo-link {
+          display: none;
+        }
         ul.nav.nav-list {
-            float: none;
+            // float: none;
             display: block;
             text-align: center;
+            height: 100%;
+            padding: 10px 0;
+            overflow: hidden;
+        }
+        .logo-mini-link {
+          display: block;
         }
         li.nav-list-item {
-            padding: 10px 10px;
+            padding: 0 10px;
+            vertical-align: middle;
+
+            a {
+              line-height: 16px;
+              color: #fff;
+            }
         }
+    }
+    main.container{
+      padding-top: 44px;
     }
     main.container,
     .home.post-list,

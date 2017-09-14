@@ -4,19 +4,36 @@ header {
     .logo-link {
         float: left;
     }
-    
+
     .nav {
         float: right;
         left: 80px;
+    }
+
+    li.logo-mini {
+      display: none;
     }
 
     .logo-link img {
         height: 60px;
     }
 
+    .logo-mini-link {
+      display: none;
+      width: 40px;
+      height: 40px;
+      overflow: hidden;
+      float: left;
+      margin: 0 8px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     .nav-list-item {
         display: inline-block;
-        padding: 19px  10px ;
+        padding: 19px 10px;
         a {
             font-size: 16px;
             line-height: 1.4;
