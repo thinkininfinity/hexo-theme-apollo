@@ -1,12 +1,12 @@
 menu:
-    Blog: /
+    Home: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    About: /post/about.html
+    GitHub: https://github.com/jiandansousuo/jiandansousuo.com
     Rss: /atom.xml
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /favicon.ico
+logo: /img/logo.jpg
 
 # Comment
 # e.g disqus: seansun
@@ -15,7 +15,14 @@ duoshuo:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: false
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017
+
+# Github edit path @yugasun
+github_edit:
+  url: https://github.com/jiandansousuo/jiandansousuo.com/edit/
+  branch: master
+  path: /source/
+

@@ -2,4 +2,11 @@ prev: 上一页
 next: 下一页
 prev_post: 上一篇
 next_post: 下一篇
-more: ...阅读全文
+more: 阅读全文
+
+menu:
+  Home: 首页
+  Archive: 目录
+  GitHub: GitHub
+  Rss: 订阅
+  About: 关于

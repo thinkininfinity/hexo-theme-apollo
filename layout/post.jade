@@ -1,7 +1,7 @@
 extends partial/layout
 
 block site_title
-    != page.title + " · " + config.title
+    != page.title + "_" + config.subtitle
 
 block description
     - var desc = page.desc || page.title + ' - ' + config.author;
@@ -18,3 +18,4 @@ block pagination
 
 block copyright
     include partial/copyright
+    
