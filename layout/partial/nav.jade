@@ -3,7 +3,8 @@ ul.nav.nav-list
         li.nav-list-item
             - var re = /^(http|https):\/\/*/gi;
             - var tar = re.test(value) ? "_blank" : "_self"
-            - var act = !re.test(value) && "/"+page.current_url === value
+            //- page.path is for about page
+            - var act = !re.test(value) && ("/"+page.current_url === value || "/"+page.path === value)
             a.nav-list-link(class={active: act} href=url_for(value) target=tar)
                 //- != key.toUpperCase()
                 != __(`menu.${key}`)
