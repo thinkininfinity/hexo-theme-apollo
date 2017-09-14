@@ -68,15 +68,22 @@ main.container {
     #disqus_thread {
         margin: 2em 10px;
     }
+
+    a.nav-list-link.active{
+        border-bottom: 2px solid #ffffff;
+    }
 }
 
 @media screen and (max-width: 320px) {
     li.nav-list-item {
       padding: 0 10px;
       vertical-align: middle;
-  
+
       a {
         font-size: 13px;
       }
     }
-  }
+    a.nav-list-link.active{
+        border-bottom: 2px solid #ffffff;
+    }
+}
