@@ -1,7 +1,7 @@
 meta(charset="utf-8")
 meta(name="X-UA-Compatible", content="IE=edge")
 
-title 
+title
     block site_title
         = config.title
 block description
@@ -13,4 +13,4 @@ link(rel="stylesheet", href=url_for("css/apollo.css"))
 
 - var xml = config.url + '/atom.xml'
     link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
-    
+
