@@ -74,7 +74,7 @@ main.container {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     li.nav-list-item {
       padding: 0 10px;
       vertical-align: middle;
@@ -86,4 +86,5 @@ main.container {
     a.nav-list-link.active{
         border-bottom: 2px solid #ffffff;
     }
+
 }

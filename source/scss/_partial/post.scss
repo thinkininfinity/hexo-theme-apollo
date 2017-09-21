@@ -32,7 +32,7 @@
     .post-info {
         color: #7f8c8d;
         margin: 1.2em 0;
-        height: 28px;
+        // height: 28px;
         line-height: 28px;
 
         span {
@@ -45,6 +45,18 @@
             font-size: 12px;
             color: white;
             background-color: #E36B6B;
+            vertical-align: middle;
+        }
+        a.post-author {
+            margin-left: 0.4rem;
+            font-size: 15px;
+            color: #3aa373;
+            vertical-align: middle;
+            max-width: 100px;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
     }
 }
