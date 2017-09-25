@@ -1,7 +1,7 @@
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
-        if item.author && (is_home() || is_post())
+        if item.author && item.author != 'jiandansousuo' && (is_home() || is_post())
             a.post-author(href=url_for('https://github.com/' + item.author) target="_blank" title=item.author)
                 != '@' + item.author
         //- if item.from && (is_home() || is_post())
