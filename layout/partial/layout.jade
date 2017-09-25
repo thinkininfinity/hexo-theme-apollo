@@ -7,6 +7,8 @@ html(lang=config.language)
             header
                 a.logo-link(href=url_for())
                     img(src=url_for(theme.logo) alt="logo")
+                a.logo-mini-link(href=url_for())
+                    img(src=url_for(theme.logo_mini) alt="logo")
                 include nav
             main.container
                 block container

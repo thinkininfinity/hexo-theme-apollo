@@ -1,5 +1,8 @@
 extends partial/layout
 
+block site_title
+    != __('menu.Archive') + "_" + config.subtitle
+
 block container
     include mixins/post
     +postList()

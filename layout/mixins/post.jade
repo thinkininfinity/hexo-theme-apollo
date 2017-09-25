@@ -1,8 +1,14 @@
 mixin postInfo(item)
     .post-info
         != full_date(item.date, 'll')
-        if item.from && (is_home() || is_post())
-            a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
+        if item.author && item.author != 'jiandansousuo' && (is_home() || is_post())
+            a.post-author(href=url_for('https://github.com/' + item.author) target="_blank" title=item.author)
+                != '@' + item.author
+        //- if item.from && (is_home() || is_post())
+        //-     a.post-from(href=item.from target="_blank" title=item.from) 转载 · 原文地址
+        //- Github edit button @yugasun
+        if  is_post()
+            a.post-edit-link(href= url_for(theme.github_edit.url + theme.github_edit.branch + theme.github_edit.path + page.source) target="_blank") 编辑此页
 
 //- Index Page
 mixin posts()
@@ -28,7 +34,7 @@ mixin postList()
             - var itemYear = date(item.date, 'YYYY') - 0;
             - change = year !== itemYear;
             - year = change ? itemYear : year;
-            if change 
+            if change
                 h2.archive-year!= year
             .post-item
                 +postInfo(item)

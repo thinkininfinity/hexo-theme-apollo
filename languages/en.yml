@@ -1,5 +1,12 @@
-prev: PREV
-next: NEXT
-prev_post: PREV
-next_post: NEXT
-more: ...more
+prev: Prev
+next: Next
+prev_post: Prev
+next_post: Next
+more: More
+
+menu:
+  Home: Home
+  Archive: Archive
+  GitHub: GitHub
+  Rss: RSS
+  About: About
