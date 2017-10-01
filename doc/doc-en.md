@@ -69,7 +69,7 @@ If you want to show excerpt(core content of article) to your visitors, do add HT
 
 ## Comment Plugin
 
-Hexo-theme-apollo support two comment plugins: Disqus and Duoshuo. please set like this in your `theme/_config.yml`:
+Hexo-theme-apollo support two comment plugins: Disqus and Duoshuo. please set like this in your `themes/apollo/_config.yml`:
 
 ```yaml
 disqus: seansun
