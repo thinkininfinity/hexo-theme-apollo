@@ -25,3 +25,17 @@ if theme.disqus
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
+
+
+if theme.cloudTie
+    #cloud-tie-wrapper.cloud-tie-wrapper
+    script(src='https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js')
+    script.
+        var cloudTieConfig = {
+            url: document.location.href,
+            sourceId: "#{page.path}",
+            productKey: "#{theme.cloudTie}",
+            target: "cloud-tie-wrapper"
+        };
+        var yunManualLoad = true;
+        Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
