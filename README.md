@@ -45,3 +45,7 @@ git pull
 ## License
 
 MIT
+
+## Gatsby Theme
+
+如果你正在使用 Gatsbyjs 建站，欢迎使用专为 Gatsbyjs 开发的主题 [gatsby-theme-wink](https://github.com/pinggod/gatsby-theme-wink) 😘
