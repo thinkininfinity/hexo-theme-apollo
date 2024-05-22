@@ -1,3 +1,10 @@
+- ⛺ 如果你期望使用 Astro + MDX 技术栈
+- 🌆 如果你希望在博客中增加一点不一样的东西
+- 😍 欢迎来使用和反馈新主题 [astro-theme-mia](https://github.com/infinity-ooo/astro-theme-mia)
+- 🚅 Astro 相比 Hexo 性能更强，MDX 提供的能力可实现更强大的交互能力
+
+---
+
 ![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
 
 ## 文档
